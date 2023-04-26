@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+@import url(/Sass/cssreload.css);
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navegation .desktop {
+  display: none;
+}
+.navegation .mobile {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(0, 0%, 0%);
+  padding: 25px 20px;
+  display: none;
+}
+.navegation .mobile .logos {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.navegation .mobile .logos .logo {
+  width: 130px;
+}
+.navegation .mobile .lista-mobile {
+  color: hsl(0, 0%, 100%);
+  opacity: 0.7;
+  margin-top: 100px;
+  font-size: 1.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 300;
+}
+
+header {
+  width: 100%;
+}
+header .hero-desktop {
+  display: none;
+}
+header .hero-mobile {
+  width: 100vw;
+  z-index: 0;
+}
+header .logo {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  width: 140px;
+}
+header .logo-menu {
+  position: absolute;
+  top: 35px;
+  right: 25px;
+}
+header h1 {
+  position: absolute;
+  top: 200px;
+  border: 2px solid white;
+  font-size: 2.2rem;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 30px;
+  margin-right: 30px;
+  max-width: 500px;
+  left: calc(20% - 40px);
+}
+
+.pricipal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pricipal .interactive-desktop {
+  display: none;
+}
+.pricipal .interactive-mobile {
+  width: 85vw;
+  height: 85%;
+  margin: 20px auto;
+  margin-top: 70px;
+}
+.pricipal .title-interactive {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin: 10px auto;
+  font-weight: 300;
+  width: 300px;
+}
+.pricipal p {
+  text-align: center;
+  font-family: "Alata", sans-serif;
+  color: hsl(0, 0%, 55%);
+  line-height: 1.5;
+  width: 280px;
+  font-size: 0.9rem;
+  margin: 10px auto;
+}
+
+.secundario .title-creations {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+.secundario .title-creations button {
+  grid-row: 3;
+}/*# sourceMappingURL=style.css.map */
