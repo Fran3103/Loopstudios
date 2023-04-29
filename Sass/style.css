@@ -256,6 +256,7 @@ header h1 {
   font-size: 0.8rem;
   font-weight: 400;
   cursor: pointer;
+  border-bottom: 1px solid transparent;
 }
 .footer .menu-footer a:hover {
   border-bottom: 1px solid white;
@@ -269,10 +270,11 @@ header h1 {
 }
 .footer .redes img {
   cursor: pointer;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 4px;
 }
 .footer .redes img:hover {
   border-bottom: 1px solid white;
-  padding-bottom: 4px;
 }
 .footer .copy p {
   color: hsl(0, 0%, 55%);
@@ -317,10 +319,12 @@ header h1 {
     color: hsl(0, 0%, 100%);
     font-family: "Alata", sans-serif;
     font-size: 0.8em;
-    cursor: pointer;
+    font-weight: 400;
+    border-bottom: 1px solid transparent;
   }
   header .navegation .desktop .menu-desktop a:hover {
     border-bottom: 1px solid white;
+    cursor: pointer;
   }
   header .logo-menu {
     display: none;

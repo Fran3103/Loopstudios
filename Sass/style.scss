@@ -305,6 +305,7 @@ header{
             font-size: 0.8rem;
             font-weight: 400;
             cursor: pointer;
+            border-bottom: 1px solid transparent;
         }
         a:hover{
 
@@ -322,10 +323,12 @@ header{
         transform: scale(0.8);
         img{
             cursor: pointer;
+            border-bottom: 1px solid transparent;
+            padding-bottom: 4px;
         }
         img:hover{
             border-bottom: 1px solid white;
-            padding-bottom: 4px;
+            
         }
 
     }
@@ -383,11 +386,14 @@ header{
                     color: variables.$White;
                     font-family: variables.$font-alata;
                     font-size: 0.8em;
-                    cursor: pointer;
+                    font-weight: 400;
+                    border-bottom: 1px solid transparent;
+                    
                     }
                 a:hover{
                     border-bottom: 1px solid white;
                     
+                    cursor: pointer;
                 }
                 }
 
